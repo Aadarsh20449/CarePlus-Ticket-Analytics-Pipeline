@@ -73,7 +73,7 @@ FROM 's3://careplus-data-lake/support_tickets/processed/'
 IAM_ROLE '<REDSHIFT_ROLE>'
 FORMAT AS PARQUET
 REGION 'us-east-1';
-
+```
 🗄️ Redshift Data Warehouse
 
 Final analytical tables include:
