@@ -77,94 +77,46 @@ REGION 'us-east-1';
 🗄️ Redshift Data Warehouse
 
 Final analytical tables include:
-
-tickets
-
-ticket_logs
-
-interactions
-
-agent_performance
-
-These tables enable:
-
-Resolution time analytics
-
-Agent ticket load
-
-Escalation tracking
-
-Issue category analysis
+suppost_logs
+support_tickets
 
 📊 Power BI Dashboard
-
 Dashboard Highlights
-
 Total Tickets: 48
-
 Resolved: 39
-
 Open: 8
-
 Escalated: 1
-
 Avg Interactions: 4.38
-
 Avg Resolution Time: 1098 minutes
-
 Tickets by Agent
-
 Tickets by Channel
-
 Resolution Time by Category & Priority
-
 Detailed ticket table
 
 🎯 What I Learned
 AWS
-
 S3 Data Lake design
-
 Lambda event automation
-
 Glue ETL development
-
 Athena for data validation
-
 Redshift warehousing
-
 Data Engineering
-
 Raw vs processed zones
-
 Handling structured & unstructured data
-
 ETL pattern implementation
-
 Data modelling for BI
-
 Visualization
-
 Connecting Power BI with Redshift
-
 Building KPIs, charts, and insights
 
 🚀 How to Run the Pipeline
-
 Upload raw CSV/LOG files to S3
-
 Lambda auto-processes them
-
 Glue crawler updates schema
-
 Glue ETL job prepares final tables
-
 COPY command loads into Redshift
-
 Power BI refreshes dashboard
 
 ✔️ Conclusion
-
 This project showcases a fully functional cloud-native data analytics pipeline using AWS services and Power BI.
-
 It covers data ingestion → processing → warehousing → visualization, demonstrating strong data engineering and analytics capabilities.
